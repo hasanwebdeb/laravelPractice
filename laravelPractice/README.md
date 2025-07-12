@@ -1,2 +1,0 @@
-# laravelPractice
-firstLaravel Project
