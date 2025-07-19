@@ -15,7 +15,7 @@
     return $m == 02;
  };
 
- $year = "2003" ;
+ $year = 2003 ;
 
  if(isLeapYear($date)) {
     echo "$year is Leap year";
