@@ -7,8 +7,8 @@ $dTwo = new DateTime($tuba);
 
 $diff = $dOne->diff ($dTwo);
 
-echo $diff->y ." Years " .$diff->m ." Month " .$diff->d ." Days ";
+//echo $diff->y ." Years " .$diff->m ." Month " .$diff->d ." Days ";
 
 //echo $diff->format("%y/%m/%d");
 
-echo $diff->format("%a");
+//echo $diff->format("%a");
