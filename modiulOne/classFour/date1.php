@@ -6,7 +6,8 @@ echo date("D/M/Y");
 echo date("d/M/y h:i:s");
 echo PHP_EOL;
 echo date("l");
+echo PHP_EOL;
 
 $date = "16-10-2025";
 
-echo date("l", strtotime($date));
+echo date("l F jS  Y", strtotime($date));
