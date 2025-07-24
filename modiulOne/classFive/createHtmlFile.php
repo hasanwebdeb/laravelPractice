@@ -9,3 +9,6 @@ $file = fopen($fileName,"w");
 fwrite($file, $content);
 fclose($file);
 
+$fileName = "index.html";
+$content = file_get_contents($fileName);
+echo $content;
